@@ -2,6 +2,26 @@
 
 @import url(../styles/header.css);
 
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +32,14 @@
     --branco: #ffffff;
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg,#002f52 35.49%, #326589 165.37);
+    --fonte-principal: 'poppins-regular';
 }
 
 /* ================Variáveis CSS e Configuração Global===============================*/
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
