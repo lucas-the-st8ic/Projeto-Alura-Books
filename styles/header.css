@@ -73,8 +73,8 @@
 }
 
 .lista-menu__link {
-    color: rgb(0, 48, 131);
-    background: var(--azul-degrade);
+    background: #020024;
+    background: linear-gradient(177deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 23%, rgba(0, 212, 255, 1) 100%);
     text-transform: uppercase;
 }
 

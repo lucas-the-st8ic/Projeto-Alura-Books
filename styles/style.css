@@ -2,6 +2,8 @@
 
 @import url(../styles/header.css);
 
+@import url(../styles/banner.css);
+
 @font-face {
     font-family: 'poppins-light';
     src: url(../fonts/Poppins-Light.ttf);
