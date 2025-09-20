@@ -8,6 +8,10 @@
 
 @import url(../styles/topicos.css);
 
+@import url(../styles/contato.css);
+
+@import url(../styles/rodape.css);
+
 @font-face {
     font-family: 'poppins-light';
     src: url(../fonts/Poppins-Light.ttf);
