@@ -1,22 +1,3 @@
-@font-face {
-    font-family: 'poppins-light';
-    src: url(../fonts/Poppins-Light.ttf);
-}
-
-@font-face {
-    font-family: 'poppins-regular';
-    src: url(../fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'poppins-medium';
-    src: url(../fonts/Poppins-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'poppins-bold';
-    src: url(../fonts/Poppins-Bold.ttf);
-}
 
 .cabecalho__menu-hamburguer {
     width: 15px;
@@ -80,6 +61,55 @@
     display: none;
 }
 
+.container__titulo--negrito, 
+.container__titulo {
+    display: none;
+}
+
+.opções {
+    display: none;
+}
+
 @media  screen and (min-width: 1024px) {
     
+
+   .container__titulo--negrito, .container__titulo {
+    display: inline-block;
+    font-family: 'JosefinSans';
+    font-size: 30px;
+   }
+
+   .container__titulo--negrito {
+    font-weight: 700;
+   }
+
+   .container__titulo {
+    font-weight: 400;
+   }
+
+   .opções {
+    display: flex;
+    list-style-type: none;
+   }
+
+   .opções__item {
+    padding: 0em 1em;
+    text-transform: uppercase;
+    font-family: 'poppins-regular';
+    font-weight: 1em;
+    color: #000000;
+   }
+
+   .opções__link {
+    color: #000000;
+    text-decoration: none;
+   }
+   
+   .container__hidden {
+    display: none;
+   }
+
+   .cabecalho__menu-hamburguer {
+    display: none;
+   }
 }
