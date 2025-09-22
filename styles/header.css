@@ -112,4 +112,18 @@
    .cabecalho__menu-hamburguer {
     display: none;
    }
+
+   .opções__botão {
+    display: none;
+   }
+
+   .opções__botão:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+   }
+
+   ul.lista-menu {
+    list-style-type: none;
+    text-decoration: none;
+   }
 }
