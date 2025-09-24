@@ -121,7 +121,7 @@
         align-items: center;
     }
 
-    .carrossel__container > .card {
+    .card {
         width: 63%;
         margin-left: 3em;
     }
@@ -130,12 +130,12 @@
         margin: 1em 0;
     }
 
-    .carrossel__container > .swiper {
+    .swiper {
         width: 50%;
         margin-right: 2em;
     }
 
-    .carrossel__container > .descrição {
+    .descrição {
         margin-right: 2em;
     }
 

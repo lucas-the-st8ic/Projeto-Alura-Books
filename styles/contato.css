@@ -72,6 +72,10 @@
 
 @media screen and (min-width: 1728px) {
     
+    .contato {
+        padding: 2em 0 2em 0;
+    }
+
     .contato__titulo {
         font-size: 30px;
         padding-top: 0.8em;
@@ -83,7 +87,7 @@
     }
 
     .cadastro__e-mail {
-        width: 22%;
+        width: 25%;
         margin-bottom: 1em;
     }
 }
