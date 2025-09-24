@@ -11,7 +11,7 @@
     font-size: 1em;
     font-weight: 300;
     color: var(--branco);
-        margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .topicos__lista {
@@ -42,5 +42,26 @@
 
     .topicos__link {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .topicos {
+        padding: 3em 0 3em 0;
+    }
+
+    .topicos__titulo {
+        font-size: 34px;
+        margin: 1px;
+        padding: 0.80em 0 0.75em 0;
+    }
+
+    ul.topicos__lista {
+        padding: 0 28%;
+    }
+
+    .topicos__link {
+        font-size: 1.5em;
     }
 }
